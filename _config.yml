@@ -74,7 +74,7 @@ defaults:
     values:
       layout: post
       post-image: ""
-      description: ""
+      description: "" 
       tags:
         - ""
   -
