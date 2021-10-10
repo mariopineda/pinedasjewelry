@@ -1,2 +1,2 @@
-# mariopinedajewelry
-mariopinedajewelry.com
+# Pinedas Jewelry
+pinedasjewelry.com
