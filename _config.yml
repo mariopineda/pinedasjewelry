@@ -1,97 +1,12 @@
-# WhatATheme
-markdown: kramdown
+# Site settings
+title:
+email:
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
 
-# URL of the Site
-url: ''
-# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl:
-
-# Title of the Site
-title: Pinedas Jewelry
-# Description of the Site
-description: handmade + small batch + slow craft
-# URL of Image of the Site
-site-image: /WhatATheme/assets/images/meta.jpg
-# Keywords of the Site
-site-keywords: Site, Template, Theme
-# URL for the Image of custom Favicon
-favicon-url:
-
-# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage), should be 650x940px
-heroimage: /images/one-ring-to-rule-them-all.jpeg
-
-# Social Media and Contact
-# If you don't want to use any icon, you can leave them blank.
-email: mariopinedajewelry@gmail.com
-facebook_username: pinedasjewelry
 twitter_username:
-instagram_username: pinedasjewelry
-linkedin_username:
 github_username:
-youtube_channel_id:
-reddit_username:
-behance_username:
-dribbble_username:
-spotify_username:
-
-# Google Analytics
-google-analytics:
-
-# Disqus
-disqus-shortname:
-
-# Name of the Author
-author-name: Mario Pineda
-# URL for the Image of the Author
-author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
-# 60 Words About the Author
-author-about: Each piece is handmade using traditional metalsmithing techniques... Working with metal is my most gratifying form of artistic expression.  Thank you for visiting and supporting your local independent artist.
-# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://github.com/thedevslot
-
-# SASS
-sass:
-  sass_dir: _sass
-  style: compressed
 
 # Build settings
-plugins:
-  - jekyll-admin
-  - jekyll-feed
-
-# Permalink
-permalink: "blog/:title"
-
-# Compress
-compress_html:
-  clippings: all
-
-# Defaults
-defaults:
-  -
-    scope:
-      type: 'posts'
-    values:
-      layout: post
-      post-image: ""
-      description: ""
-      tags:
-        - ""
-  -
-    scope:
-      type: 'pages'
-    values:
-      layout: page
-
-# Exclude
-exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+markdown: kramdown
